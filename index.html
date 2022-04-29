@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            width: 80%;
+            margin: 10px auto;
+            display: grid;
+            /* minmax function in columns */
+        grid-template-columns: repeat(4,1fr);
+            /* grid-template-columns: minmax(200px,1fr) 1fr 1fr 1fr; */
+            /* grid-template-columns: max-content 1fr 1fr 1fr; */
+            /* grid-template-columns: 1fr 1fr 1fr min-content; */
+            /* grid-template-rows: min-content 400px; */
+            /* minmax function in row */
+            /* grid-template-rows: repeat(2,minmax(80px,min-content)); */
+            grid-template-rows: repeat(2,minmax(80px,min-content));
+            grid-gap: 12px;
+        }
+        .class1{
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class1">Class1</div>
+        <div class="class2">class2</div>
+        <div class="class2">class3</div>
+        <div class="class4">Class-4</div>
+        <div class="class5">class5</div>
+        <div class="class6">Class-6</div>
+        <div class="class7">class7</div>
+        <div class="class8">class8</div>
+    </div>
+    
+</body>
+</html>

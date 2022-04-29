@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    font-size: 20px;
+    /* font-weight: bold ; */
+    text-align: center;
+}
+
+.class1{
+    background-color: bisque;
+}
+.class2{
+    background-color: rgb(193, 123, 37);
+}
+.class3{
+    background-color: rgb(187, 27, 27);
+}
+.class4{
+    background-color: rgb(25, 19, 177);
+}
+.class5{
+    background-color: rgb(59, 170, 177);
+}
+.class6{
+    background-color: rgb(17, 45, 86);
+}
+.class7{
+    background-color: rgb(159, 70, 74);
+}
+.class8{
+   background-color: rgb(151, 122, 86); 
+}
